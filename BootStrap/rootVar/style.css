@@ -1,0 +1,5 @@
+:root,
+[data-bs-theme=light] {
+  --bs-primary: rgb(82, 228, 24) !important;
+  --button-text-color: black;
+}

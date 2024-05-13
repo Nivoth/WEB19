@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    width:900px
+}
+.box1-3{
+    background-color: darkblue;
+    height: 200px;
+}
+.box2{
+    background-color: red;
+    padding: 10px;
+}
+img{
+    display: block;
+    margin: auto;
+}

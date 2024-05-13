@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  /* display: flex; */
+  width: 700px;
+  position: relative; /*kit pi titang derm*/
+  background-color: aqua;
+  height: 700vh;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  background: gold;
+}
+.box1 {
+  position: relative;
+  left: 550px;
+  z-index: -1;
+}
+.box2 {
+  position: absolute; /*move kit jenh pi view port , but if container have position relative it kit pi container*/
+  right: 250px;
+  z-index: 1;
+}
+.box3 {
+  position: fixed;
+}
+.box4 {
+  position: sticky;
+  top: 0;
+  left: 300px;
+}

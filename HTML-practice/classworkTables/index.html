@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<style>
+    table{
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+    tbody td{
+        padding-left: 20px;
+    }
+    tfoot th{
+        text-align: start;
+        padding-left: 20px;
+    }
+</style>
+<body>
+    <table border="2" width="900" height="500" align="center">
+        <caption style="font-size: 1.5em;">Schedule of Foundation Student</caption>
+        <colgroup>
+            <col span="2" bgcolor="#CCFFCC">
+        </colgroup>
+        <colgroup>
+            <col span="4" background="https://i.ytimg.com/vi/8CLSYPy5q1w/maxresdefault.jpg">
+        </colgroup>
+        <thead height="50" bgcolor="pink">
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Class</th>
+                <th colspan="3">Course</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Sin Sreyphea</td>
+                <td>Class 1</td>
+                <td>HTML, CSS</td>
+                <td colspan="2">JavaScript</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ing Muyleang</td>
+                <td>Class 2</td>
+                <td>Git</td>
+                <td>Database</td>
+                <td>Deployment</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sun Jessica</td>
+                <td>Class 3</td>
+                <td colspan="3">Python</td>
+            </tr>
+            <tr>
+                <td rowspan="3">4</td>
+                <td rowspan="3">Chhun Sreynich</td>
+                <td rowspan="3">Class 4</td>
+                <td colspan="3">Java</td>
+            </tr>
+            <tr>
+                <td colspan="3">Spring Boot</td>
+            </tr>
+            <tr>
+                <td colspan="3">DevOps</td>
+            </tr>
+        </tbody>
+        <tfoot height="50" bgcolor="#F5F5F5">
+            <tr>
+                <th colspan="6">Total: 4 students</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

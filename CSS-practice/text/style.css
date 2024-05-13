@@ -1,0 +1,27 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+section{
+    background: rgb(198, 217, 240);
+    padding: 20px 10px 20px 10px;
+    border: transparent;
+    border-radius: 10px;
+}
+h1{
+    color: #053fac;
+    margin: auto;
+    text-align: center;
+    font-variant: small-caps;
+}
+span{
+    letter-spacing: 2px;
+    color: #053fac;
+    text-transform: uppercase;
+}
+button{
+    background: #3579F6;
+    border: transparent;
+    color: #fff;
+    height: 30px;
+    border-radius: 5px;
+}

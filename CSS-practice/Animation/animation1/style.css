@@ -1,0 +1,70 @@
+.box {
+  background-color: rgb(66, 70, 67);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  gap: 50px;
+}
+.box:hover {
+  background-color: darkblue;
+  font-size: 5rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.box3,
+.box4{
+    transform: rotate(100px);
+}
+.box {
+  transition-property: all;
+  transition-duration: 1s;
+  /* transition-delay: 1s; */
+  transform: scale(1.2);
+  /* todo short hand */
+  /* transition : all 1s 2s */
+}
+.box3,
+.box4{
+    /* 
+    animation: name duration 
+    timing-function 
+    delay 
+    interation-count 
+    direction; 
+    */
+
+    /* animation: slide;
+    animation-duration: 5s;
+    animation-iteration-count: 5s; */
+    /* animation: slide 5s linear infinite;  */
+    animation: swap 5s linear infinite;
+}
+/* 
+@keyframes slide {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(-100px);
+    }
+  }
+*/
+@keyframes swap {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px); /* Adjust the distance as needed */
+    }
+  }
+

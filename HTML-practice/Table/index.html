@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table In HTML</title>
+</head>
+<style>
+    table{
+        border-collapse: collapse;
+    }
+    td{
+        text-align: center;
+    }
+    #total{
+        text-align: end;
+    }
+    tfoot{
+        border-top: 1px dashed;
+    }
+</style>
+<body>
+    <table border="1" width="700">
+        <colgroup>
+            <col span="4" bgcolor="yellow">
+          </colgroup>
+        <thead>
+            <tr bgcolor="plum">
+                <th rowspan="2">Name</th>
+                <th rowspan="2">ID</th>
+                <th colspan="2">Membership Dates</th>
+                <th rowspan="2">Balance</th>
+            </tr>
+            <tr>
+                <th bgcolor="pink">Joined</th>
+                <th bgcolor="cyan">Canceled</th>
+            </tr>
+        </thead>
+        <tbody >
+            <tr>
+                <td>Margaret Nguyen</td>
+                <td>427311</td>
+                <td>June 3 , 2010</td>
+                <td>N/A</td>
+                <td>0.00</td>
+            </tr>
+            <tr>
+                <td>Nico Robin</td>
+                <td>4275687</td>
+                <td>June 5 , 2013</td>
+                <td>April 8, 2017</td>
+                <td>35.00</td>
+            </tr>
+            <tr>
+                <td>Mugiwara No Luffy</td>
+                <td>54637281</td>
+                <td>July 10 , 2024</td>
+                <td>N/A</td>
+                <td>15.00</td>
+            </tr>
+        </tbody>
+        <tfoot bgcolor="plum">
+            <tr>
+                <th colspan="4" id="total">Total balance</th>
+                <th>52.00</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

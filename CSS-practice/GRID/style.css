@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+}
+.box{
+    background-color: #A9B4F6;
+    border-radius: 8px;
+    color: #fff;
+    display: grid;
+    place-content: center;
+}
+.box4{
+    background-color: #6366E9;
+    grid-column: span 2;
+}
+.box7{
+    background-color: #6366E9;
+    grid-column: span 2;
+}

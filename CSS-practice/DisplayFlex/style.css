@@ -1,0 +1,16 @@
+.box{
+    background-color: rgb(29, 194, 103);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly; /*work on main axis*/
+    align-items: center; /* work on cros axis but must apply height*/
+    height: 100vh;
+    flex-wrap: wrap;
+}

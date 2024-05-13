@@ -1,0 +1,17 @@
+table{
+    border-collapse: collapse;
+    border: 1px solid gray;
+    text-align: center;
+    width: 500px;
+}
+thead{
+    background: rgb(162, 235, 162);
+}
+tr{
+    height: 40px;
+    border: 1px solid gainsboro;
+}
+/* we use nth-child to change color of row table in odd number */
+tbody tr:nth-child(odd){ 
+    background: rgb(231, 230, 230);
+}

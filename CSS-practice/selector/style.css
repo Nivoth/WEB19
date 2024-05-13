@@ -1,0 +1,58 @@
+id selector
+#idTitle{
+    color: cyan;
+}
+/* class selector */
+.title{
+    color: red;
+}
+/* type selector */
+h1{
+    color: darkblue;
+    text-align: center;
+}
+
+/* Attribute selector (link) */
+/* a{
+    color: brown;
+} */
+/* Attribute selector */
+/* a[href]{
+    color: aqua;
+} */
+/* class selector */
+.link{
+    color: brown;
+}
+#link{
+    text-align: center;
+    color: black;
+}
+/* *{
+    color: pink;
+} */
+/* The same class selector */
+.box{
+    width: 100px;
+    height: 100px;
+    background: pink;
+    margin: 10px;
+    display: flex;
+}
+/* Group selector */
+h5,p{
+    background-color: aqua;
+    width: fit-content;
+}
+div > h4{
+    color: rgb(18, 126, 126);
+}
+/* combinator selector */
+div h4{
+    color: palevioletred;
+    border: 10px outset darkblue;
+    padding: 20px;
+}
+a:hover{
+    color: red;
+}
